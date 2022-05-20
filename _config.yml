@@ -1,0 +1,40 @@
+# Site Variable
+name: Ex Theme
+title: Ex Theme
+description: Simple, Basic Website Theme
+url: script1000.github.io/exTheme
+github_username: script1000
+author: script1000
+safe: false
+
+plugins:
+ - jekyll-sitemap
+ - jekyll-assets
+ - jekyll-feed
+ - jekyll-archives
+ - jekyll-tagging
+ - jekyll_picture_tag
+ - jekyll-seo-tag
+
+plugins_dir: _plugins
+
+collections:
+  posts:
+    output: true
+
+encoding: "utf-8"
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: [1, 2, 3, 4, 5, 6]
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+
+webrick:
+  headers:
+    header: header
