@@ -1,0 +1,85 @@
+/* Default Style Sheet */
+body {
+    background-color: aquamarine;
+    border: 2px;
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+#inner {
+    padding: 0px;
+    margin: 0px;
+}
+
+#header {
+    height: 50px;
+    background-color: #3f51b5;
+    font-size: 24px;
+    border-radius: 0px 0px 2px 2px;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+#headertext {
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    vertical-align: middle;
+    color: white;
+}
+
+#desc {
+    position: absolute;
+    top: -32px;
+    left: 280px;
+    color: white;
+    /* font-family: monospace; */
+    font-weight: 100;
+  }
+
+#console {
+    background-color: black;
+    font-family: monospace;
+    color: chartreuse;
+}
+
+header {
+    background-color: aqua;
+    border: 1px;
+    border-radius: 16px;
+    padding: 4px;
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.2),
+        0 0 0 2px rgba(255, 255, 255, 0.4),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+}
+
+#homebs {
+    border: 1px;
+    border-radius: 16px;
+    background-color: bisque;
+    text-decoration: none;
+    color: black;
+}
+
+#homebs:link {
+    border: 1px;
+    border-radius: 16px;
+    background-color: bisque;
+    text-decoration: none;
+    color: black;
+}
+
+#homebs:focus {
+    text-decoration: none;
+    color: brown;
+}
+
+#homebs:hover {
+    text-decoration: none;
+    color: aquamarine;
+    text-shadow: 0 0 1em blue, 0 0 0.2em blue;
+}
