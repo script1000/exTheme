@@ -1,15 +1,6 @@
-<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
 <meta name="description" content="Extended Theme">
 <meta name="keywords" content="theme,extended">
-
-<!-- Setup Google Analytics -->
-<!-- {% include head-custom-google-analytics.html %} -->
-
-<!-- prefetch preload -->
-<link rel="preload" href="{{ /assets/css/default.css | relative-url }}" as="style">
-
-<!-- You can set your favicon here -->
+{% include google-analytics.html %}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ /assets/icon/apple-touch-icon.png?nvp=1.0 | relative-url }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ /assets/icon/favicon-32x32.png?nvp=1.0 | relative-url }}">
 <link rel="icon" type="image/png" sizes="194x194" href="{{ /assets/icon/favicon-194x194.png?nvp=1.0 | relative-url }}">
@@ -24,6 +15,5 @@
 <meta name="msapplication-TileImage" content="{{ /assets/icon/mstile-144x144.png?nvp=1.0 | relative-url }}">
 <meta name="msapplication-config" content="{{ /assets/icon/browserconfig.xml?nvp=1.0 | relative-url }}">
 <meta name="theme-color" content="#ffffff">
-
 <!-- <meta name="google-site-verification" content="K2q24KsKh3H4kss94jBWXVVeeU5GVQrrtuecrMFRhnU" /> -->
-<!-- end custom head snippets -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
